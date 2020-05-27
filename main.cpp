@@ -172,7 +172,7 @@ class administers{
 void loadfile( umap &tmp, administers &adm)
 {	//DATABASE
     string tname,data;
-    /*for(int i=1;i<20;i++)
+    for(int i=1;i<20;i++)
     {
         cls();
         cout<<"\n\n\n\n\tLoading "<<"\t"<<"\t";
@@ -181,7 +181,7 @@ void loadfile( umap &tmp, administers &adm)
         cout<<"\n\n\t "<<2*i<<"%";
         cout<<"\n\n\tReading Database";
         Sleep(150 - i*4);
-    }*/
+    }
     fstream file("Phonedirectory.txt",  ios::in);
     file.seekg(0,ios::beg);
     while(getline(file,tname))
@@ -200,7 +200,6 @@ void loadfile( umap &tmp, administers &adm)
          adm.insert_admin(tname,data);
     }
     admfile.close();
-    /*
      for(int i=20;i<=50;i++)
       { cls();
            cout<<"\n\n\n\n\tLoading "<<"\t"<<"\t";
@@ -211,7 +210,7 @@ void loadfile( umap &tmp, administers &adm)
             cout<<"\n\n\tComplete. Press Enter to Continue ";
         else
             cout<<"\n\n\tAccessing Main Memory";
-      }*/
+      }
     getch();
 
 }

@@ -1,7 +1,7 @@
 # phone-directory-project
 
 ### Telephone Directory Management 
-implemented using Custom Map Data structure, hash function (random number generator) and File Handling with Role Based Access Control supporting multiple administrators, a super administrator and users.
+A system to maintain the telephone records implemented using Map Data Structure for handling queries, Object-Oriented Programming and File Handling in C++ to give Role-based Access Control supporting multiple administrators, a super administrator, and users.
 
 ### Home 
 ![home page](https://user-images.githubusercontent.com/56557002/123988090-57e07c80-d9e5-11eb-8f08-cc5af8f1b191.png)

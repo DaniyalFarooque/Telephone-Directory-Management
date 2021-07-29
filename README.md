@@ -1,6 +1,4 @@
-# phone-directory-project
-
-### Telephone Directory Management 
+# Telephone Directory Management 
 A system to maintain the telephone records implemented using Map Data Structure for handling queries, Object-Oriented Programming and File Handling in C++ to give Role-based Access Control supporting multiple administrators, a super administrator, and users.
 
 ### Home 
